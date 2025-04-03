@@ -1,0 +1,8 @@
+node_modules/
+jsshell-130/
+posthammer.js
+*.swp
+*.fail
+*.o
+*dump*
+*.dbg.err

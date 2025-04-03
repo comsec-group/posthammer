@@ -1,0 +1,11 @@
+stages:
+  - lint
+
+format:
+  stage: lint
+  image: node:20
+  before_script:
+    - npm install
+  script:
+    - npx prettier@3.3.2 --check **/*.ts *.ts
+  allow_failure: false
